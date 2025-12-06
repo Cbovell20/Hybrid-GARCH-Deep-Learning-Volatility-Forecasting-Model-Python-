@@ -1,5 +1,5 @@
 # Hybrid-GARCH-Deep-Learning-Volatility-Forecasting-Model-Python-
-A comparative framework integrating econometric volatility models with deep learning architectures to improve short-horizon financial volatility forecasting.
+_A comparative framework integrating econometric volatility models with deep learning architectures to improve short-horizon financial volatility forecasting._
 
 
 # Overview
@@ -14,27 +14,27 @@ The project was completed as part of an advanced econometrics research initiativ
 
 # Models Implemented
 Econometric Models
-**- AR(1)–GARCH(1,1)
-- GARCH-X (exogenous regressors: sentiment, VIX, macro series)
-- Normal and skew-t innovations**
+- **AR(1)–GARCH(1,1)**
+- **GARCH-X** (exogenous regressors: sentiment, VIX, macro series)
+- **Normal and skew-t innovations**
 
 # Deep Learning Models
-**- LSTM
-- DNN 
-- Dense hybrid model combining GARCH residuals + deep features**
+- **LSTM**
+- **DNN** 
+- **Dense hybrid model combining GARCH residuals + deep features**
 
 # Hybrid Model Construction
 The hybrid architecture integrates:
-**- GARCH conditional variance estimates
-- Deep learning forecasts of nonlinear volatility patterns
-- Feature sets including sentiment, VIX, and macroeconomic signals**
+- **GARCH conditional variance estimates**
+- **Deep learning forecasts of nonlinear volatility patterns**
+- **Feature sets including sentiment, VIX, and macroeconomic signals**
 
 Final predictions are generated using weighted or learned combinations of both components.
 
 # Data Sources
 - **SPX daily returns** — Yahoo Finance
 - **VIX index** — CBOE
--** Macroeconomic indicators** — FRED API
+- **Macroeconomic indicators** — FRED API
 - **Reddit sentiment** — Custom NLP pipeline using VADER + post filtering
 
 All data is cleaned and aligned using robust timestamp-based merging with lag structures appropriate for forecasting.
@@ -48,13 +48,13 @@ All data is cleaned and aligned using robust timestamp-based merging with lag st
 <img width="339" height="135" alt="Final comparision for deep learning" src="https://github.com/user-attachments/assets/ea6f4a62-902c-4788-a9ac-167c60dfba77" />
 
 # Technologies & Libraries
-**- Python
+- Python
 - NumPy, Pandas
 - Statsmodels (GARCH)
 - TensorFlow / Keras
 - Scikit-learn
 - Matplotlib / Seaborn
-- NLTK / VADER**
+- NLTK / VADER
 
 # Limitations
 Several limitations should be considered when interpreting the results:
